@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+.container{
+	width:100%;
+	background:;
+}
+.container .welcome-section{
+	margin:0 auto;
+	width:80 !important;
+	padding:20px;
+	border:3px solid red;
+}
+.container .welcome-section .row{
+	display:flex;
+	justify-content:center;
+	gap:20px;
+}
+.container .welcome-section .row .first-col{
+	flex-basis:80%;
+}
+/* responsive style start */
+@media(max-width:991px;){
+.container .welcome-section{
+	width:100%;
+}
+}
